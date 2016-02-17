@@ -1,13 +1,13 @@
-# ext-strip [![Build Status](https://travis-ci.org/dawsonbotsford/ext-strip.svg?branch=master)](https://travis-ci.org/dawsonbotsford/ext-strip) [![npm](https://img.shields.io/npm/v/ext-strip.svg)](https://www.npmjs.com/package/ext-strip)
+# basify [![Build Status](https://travis-ci.org/dawsonbotsford/basify.svg?branch=master)](https://travis-ci.org/dawsonbotsford/basify) [![npm](https://img.shields.io/npm/v/basify.svg)](https://www.npmjs.com/package/basify)
 
-> Strip filename extension
+> Get the base name of a file
 
 <br>
 
 ## Install
 
 ```
-npm install --save ext-strip
+npm install --save basify
 ```
 
 
@@ -16,7 +16,7 @@ npm install --save ext-strip
 ## Usage
 
 ```js
-const extStrip = require('ext-strip');
+const extStrip = require('basify');
 
 extStrip('index.js');
 //=> 'index'

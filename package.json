@@ -1,12 +1,12 @@
 {
-  "name": "ext-strip",
+  "name": "basify",
   "version": "0.0.0",
-  "description": "Strip filename extension",
+  "description": "Get the base name of a file",
   "license": "MIT",
-  "homepage": "https://github.com/dawsonbotsford/ext-strip#readme",
+  "homepage": "https://github.com/dawsonbotsford/basify#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dawsonbotsford/ext-strip.git"
+    "url": "git+https://github.com/dawsonbotsford/basify.git"
   },
   "author": {
     "name": "Dawson Botsford",
@@ -14,7 +14,7 @@
     "url": "dawsonbotsford.com"
   },
   "bugs": {
-    "url": "https://github.com/dawsonbotsford/ext-strip/issues"
+    "url": "https://github.com/dawsonbotsford/basify/issues"
   },
   "engines": {
     "node": ">=0.12.0"
