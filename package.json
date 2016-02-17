@@ -1,6 +1,6 @@
 {
   "name": "basify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get the base name of a file",
   "license": "MIT",
   "homepage": "https://github.com/dawsonbotsford/basify#readme",
