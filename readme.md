@@ -16,12 +16,12 @@ npm install --save basify
 ## Usage
 
 ```js
-const extStrip = require('basify');
+const basify = require('basify');
 
-extStrip('index.js');
+basify('index.js');
 //=> 'index'
 
-extStrip(['index1.js', 'index2.html']);
+basify(['index1.js', 'index2.html']);
 //=> ['index1', 'index2']
 ```
 
@@ -30,7 +30,7 @@ extStrip(['index1.js', 'index2.html']);
 
 ## API
 
-### extStrip(target)
+### basify(target)
 
 ##### target
 
