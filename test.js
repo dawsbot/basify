@@ -1,23 +1,23 @@
 import test from 'ava';
-import fn from './';
+import basify from './';
 
 test('valid args', t => {
   t.throws(() => {
-    fn();
+    basify();
   }, Error);
   t.throws(() => {
-    fn(false);
+    basify(false);
   }, TypeError);
 });
 
 test('string', t => {
-  t.is(fn('file1.js'), `file1`);
-  t.is(fn('file2.html'), `file2`);
-  t.is(fn('file3.c'), `file3`);
-  t.is(fn('prefile.file4.c'), `prefile.file4`);
+  t.is(basify('file1.js'), `file1`);
+  t.is(basify('file2.html'), `file2`);
+  t.is(basify('file3.c'), `file3`);
+  t.is(basify('prefile.file4.c'), `prefile.file4`);
 });
 
 test('array', t => {
-  t.same(fn(['file1.js']), [`file1`]);
-  t.same(fn(['file1.js', 'file2.html']), [`file1`, `file2`]);
+  t.same(basify(['file1.js']), [`file1`]);
+  t.same(basify(['file1.js', 'file2.html']), [`file1`, `file2`]);
 });
